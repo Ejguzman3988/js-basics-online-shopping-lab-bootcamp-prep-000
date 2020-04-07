@@ -42,7 +42,7 @@ function viewCart() {
     
     for(let i = 0; i < cart.length; i++){
     
-    string += ` ${cart[i].itemName} at $${cart[i].itemPrice},`
+      string += ` ${cart[i].itemName} at $${cart[i].itemPrice},`
     }
     
     string += `and ${cart[cart.length].itemName} at $${cart[cart.length].itemPrice}.`
