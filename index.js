@@ -19,8 +19,9 @@ function viewCart() {
   // write your code here
   var string = "In your cart, you have";
   for(let i = 0; i < cart.length(); i++){
-    string += `${cart[i].addedItem.itemName}
+    string += ` ${cart[i].addedItem.itemName} at ${cart[i].addedItem.itemPrice},`
   }
+  string += 
 }
 
 function total() {
