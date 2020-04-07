@@ -19,7 +19,7 @@ function viewCart() {
   // write your code here
   var string = "In your cart, you have";
   if(cart.length === 1){
-    string += ` ${cart[0].addedItem.itemName} at ${cart[0].addedItem.itemPrice}.`
+    string += ` ${cart[0].itemName} at ${cart[0].itemPrice}.`
   }else if(cart.length === 0){
     string = "Your shopping cart is empty."
   }
