@@ -79,7 +79,7 @@ function removeFromCart(item) {
   if (check === 0){
     return "That item is not in your cart."
   }else{
-    return cart
+    return newArray
   }
   
 }
