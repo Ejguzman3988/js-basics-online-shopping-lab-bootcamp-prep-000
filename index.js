@@ -29,8 +29,9 @@ function viewCart() {
   }
   string += `and ${cart[cart.length].addedItem.itemName} at ${cart[cart.length].addedItem.itemPrice}.`
   }
-  
+  return string
 }
+
 
 function total() {
   // write your code here
