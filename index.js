@@ -65,6 +65,17 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  
+  var check = 0;
+  var newArray = [];
+  for(let i = 0; i < cart.length; i++){
+    if (cart[i].itemName === item){
+      check = 1
+      
+      cart
+      
+    }
+  }
 }
 
 function placeOrder(cardNumber) {
