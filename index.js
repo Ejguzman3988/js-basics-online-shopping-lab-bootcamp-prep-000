@@ -72,7 +72,7 @@ function removeFromCart(item) {
     if (cart[i].itemName === item){
       check = 1
       
-      cart
+      cart.splice(i,1)
       
     }
   }
