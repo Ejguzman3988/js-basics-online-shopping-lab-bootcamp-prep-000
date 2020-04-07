@@ -13,7 +13,7 @@ function addToCart(item) {
  // write your code here
  
  //creates the item to add into the cart
- var addedItem = { itemName: [item], itemPrice: Math.floor(Math.random(1,100)*10)}
+ var addedItem = { itemName: [item], itemPrice: Math.floor(Math.random()*10)}
  
  //adds the item into the cart
  cart.push(addedItem)
