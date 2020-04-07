@@ -73,7 +73,7 @@ function removeFromCart(item) {
       check = 1
       
       cart.splice(i, 1)
-      break;
+      return cart;
     }
   }
   
