@@ -29,7 +29,7 @@ function viewCart() {
  
   //When there is only 1 item in the cart
   if(cart.length === 1){
-    string += ` ${cart[0].itemName} at ${cart[0].itemPrice}.`
+    string += ` ${cart[0].itemName} at $${cart[0].itemPrice}.`
   }
   
   //When the cart is empty
@@ -42,10 +42,10 @@ function viewCart() {
     
     for(let i = 0; i < cart.length; i++){
     
-    string += ` ${cart[i].itemName} at ${cart[i].itemPrice},`
+    string += ` ${cart[i].itemName} at $${cart[i].itemPrice},`
     }
     
-    string += `and ${cart[cart.length].itemName} at ${cart[cart.length].itemPrice}.`
+    string += `and ${cart[cart.length].itemName} at $${cart[cart.length].itemPrice}.`
   }
   
   return string
