@@ -14,7 +14,7 @@ function addToCart(item) {
  var addedItem = { itemName: [item], itemPrice: math.random(1,100)}
  cart.push(addedItem)
  return `${item} has been added to your cart.`
-
+}
 function viewCart() {
   // write your code here
 }
