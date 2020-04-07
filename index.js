@@ -73,10 +73,14 @@ function removeFromCart(item) {
       check = 1
       
       cart.splice(i,1)
-      
+      break;
     }
   }
-  
+  if (check === 0){
+    return "That item is not in your cart."
+  }else{
+    return cart
+  }
 }
 
 function placeOrder(cardNumber) {
