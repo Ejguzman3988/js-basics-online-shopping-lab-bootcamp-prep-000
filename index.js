@@ -15,6 +15,7 @@ function addToCart(item) {
  cart.push(addedItem)
  return `${item} has been added to your cart.`
 }
+
 function viewCart() {
   // write your code here
   var string = "In your cart, you have";
