@@ -44,7 +44,7 @@ function viewCart() {
     
       string += ` ${cart[i].itemName} at $${cart[i].itemPrice},`
     }
-    
+    //This gets the last item correctly
     string += ` and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`
   }
   
