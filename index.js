@@ -21,7 +21,7 @@ function viewCart() {
   for(let i = 0; i < cart.length(); i++){
     string += ` ${cart[i].addedItem.itemName} at ${cart[i].addedItem.itemPrice},`
   }
-  string += 
+  string += `and ${cart[cart.length()].addedItem.itemName} at ${cart[cart.length()].addedItem.itemPrice}.`
 }
 
 function total() {
