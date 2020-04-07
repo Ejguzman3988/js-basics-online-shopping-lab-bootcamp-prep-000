@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ return cart.push(item)
 }
 
 function viewCart() {
