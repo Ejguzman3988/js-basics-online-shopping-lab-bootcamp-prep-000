@@ -40,7 +40,7 @@ function viewCart() {
   //When there is more than 1 item in the cart
   else{
     
-    for(let i = 0; i < cart.length; i++){
+    for(let i = 0; i < cart.length-1; i++){
     
       string += ` ${cart[i].itemName} at $${cart[i].itemPrice},`
     }
