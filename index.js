@@ -17,6 +17,10 @@ function addToCart(item) {
 }
 function viewCart() {
   // write your code here
+  var string = "In your cart, you have";
+  for(let i = 0; i < cart.length(); i++){
+    string += `${cart[i].addedItem.itemName}
+  }
 }
 
 function total() {
